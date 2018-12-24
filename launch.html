@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ISA-VIT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <style type="text/css">
+  	 body
+        {
+            margin:0px;
+            padding:0px;
+
+        }
+        
+        #container
+        {
+            margin: 20vh 30vw 0 20vw;
+            border:1px solid black;
+            padding:20px 100px;
+            background-color: #94618e;
+            color: whitesmoke;
+        }
+
+        input,textarea
+        {
+            width:300px;
+            color: black;
+        }
+
+
+        .submitbutton
+        {
+
+            color: black;
+            width: 105px;
+            height: 20px;
+            line-height: 20px;
+            padding-bottom: 2px;
+            vertical-align: middle;
+            font-family: "Lucida Grande", Geneva, Verdana, Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            text-transform: none;
+            border: 1px solid transparent;
+        }
+
+  </style>
+</head>
+<body>
+
+
+	<div class="navbar navbar-default">
+		<div class="container-fliud">
+			<div  class="navbar-header">
+				<ul class="nav navbar-nav">
+      <li><a href="1-main.html">Home</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li class="active"><a href="launch.html">Launch </a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="container">
+        <h1 style="text-align: center;">Project submisson form</h1>
+
+          <h4>Name of Project</h4>
+            <input type="text" id="d_f">
+
+          <h4>Components Required</h4>
+          <textarea name="textarea" style="width:300px;height:80px;"></textarea>
+
+          <h4>Description</h4>
+          <textarea name="textarea" style="width:300px;height:150px;"></textarea>
+
+          <h4>upload PDF file here</h4>
+          <input name="file1" type="file" accept="application/pdf">
+
+          <h4 >Submit</h4>
+          <div class="submitbutton">
+          <input type="submit" name="submisson">
+          </div>
+        <br>
+        <br>
+        <br>
+    </div>
+
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>
