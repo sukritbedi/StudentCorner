@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="styles.css">
@@ -47,6 +48,11 @@
             border: 1px solid transparent;
         }
 
+        #contactus
+        {
+          margin-bottom: 0px;
+        }
+
   </style>
 </head>
 <body>
@@ -59,7 +65,7 @@
       <li><a href="1-main.html">Home</a></li>
       <li><a href="project.html">Projects</a></li>
       <li class="active"><a href="launch.html">Launch </a></li>
-      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="#contactus">Contact Us</a></li>
     </ul>
 			</div>
 		</div>
@@ -69,32 +75,39 @@
         <h1 style="text-align: center;">Project submisson form</h1>
 
           <h4>Name of Project</h4>
-            <input type="text" id="d_f" name="title">
+            <input type="text" id="d_f">
 
-	<h4>Introduction of Project</h4>
-            <input type="text" id="d_f" name="introduction">
-		
           <h4>Components Required</h4>
           <textarea name="textarea" style="width:300px;height:80px;"></textarea>
 
           <h4>Description</h4>
-          <textarea name="textarea" style="width:300px;height:150px;"></textarea>
+          <textarea name="textarea1" style="width:300px;height:150px;"></textarea>
 
           <h4>upload PDF file here</h4>
-          <input name="file" type="file" accept="application/pdf">
+          <input name="file1" type="file" accept="application/pdf">
 
           <h4 >Submit</h4>
           <div class="submitbutton">
-          <input type="submit" name="submit">
+          <input type="submit" name="submisson">
           </div>
         <br>
         <br>
         <br>
-    </div>
+  </div>
 
-<br>
-<br>
-<br>
-<br>
+  <br>
+  <br>
+
+  <div id="contactus">
+    <div class="jumbotron">
+      <div class="footer">
+      <address>Contact us: 9785891201, 7530000768 <br>
+          Email: <a href="isa@vit.ac.in">isa@vit.ac.in</a> , <a href="isavitss@gmail.com">isavitss@gmail.com</a>
+      </address>
+      <a href="https://www.facebook.com/isavitchapter" class="fa fa-facebook"></a>
+      <a href="https://www.facebook.com/isavitchapter" class="fa fa-instagram"></a>
+    </div>
+  </div>
+
 </body>
 </html>
